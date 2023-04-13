@@ -1,7 +1,187 @@
 .card {
-  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  position: absolute;
+  width: 326px;
+  height: 222px;
+  left: 77px;
+  top: 203px;
 }
 
 .card-header {
-  background-color: rgb(91, 84, 84);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  width: 326px;
+  height: 24px;
+}
+
+.card-header--title {
+  width: 326px;
+  height: 24px;
+  /* Roboto/Headline 1 */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.0015em;
+  color: #303030;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 4px 4px 4px 12px;
+  width: 326px;
+  height: 146px;
+  /* Semantic/Neutral/Background/BG-Light-DISABLE */
+  background: #f0f0f0;
+  border-radius: 8px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.card-body-inner {
+  /* Frame 277132836 */
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 310px;
+  height: 122px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+textarea {
+  border: none;
+  background-color: transparent;
+  resize: none;
+  outline: none;
+}
+
+.card-body--title {
+  width: 282px;
+  height: 12px;
+  width: 282px;
+  height: 12px;
+  /* Roboto/Caption 1 */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 12px;
+  /* identical to box height, or 109% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.004em;
+  color: #878f97;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.card-body--input {
+  width: 282px;
+  height: 110px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  text-align: left;
+  text-overflow: clip;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  /* or 138% */
+  letter-spacing: 0.0015em;
+  color: #4f4f4f;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  caret-color: #2d9cdb;
+}
+
+.card-body--loader {
+  position: absolute;
+  right: 0;
+  width: 18px;
+  height: 18px;
+}
+
+.card-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 326px;
+  height: 60px;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.card-footer--symbolsLength {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.0025em;
+  color: #878f97;
+}
+
+.card-footer-clearInput {
+  cursor: pointer;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  letter-spacing: 0.0025em;
+  /* Semantic/Neutral/Text/TEXT-PRIMARY */
+  color: #00b6d0;
+}
+
+.card-footer--error {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.0025em;
+  /* Semantic/sys/Service/ERROR */
+  color: #d6675c;
 }/*# sourceMappingURL=textField.css.map */
