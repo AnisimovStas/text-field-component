@@ -1,3 +1,4 @@
+<style src="./style/index.css"></style>
 <template>
   <textField />
 </template>
