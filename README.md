@@ -1,19 +1,10 @@
 # text-field-component
+Здравствуйте!
+Для выполнения тестового задания использовал VueCLI в сборке с чистым Vue 3 (composition API)+SCSS с БЭМ неймингом классов.
 
-## Project setup
-```
-npm install
-```
+Удалось реализовать все ключевые позиции задания.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Не сразу была ясна цель внедрения в компонент preloader'а. Предположил, что он необходим для отображения статуса загрузки  (Будет полезно при переиспользовании компонента в качестве формы вывода отзывов, к примеру). В текущей версии preloader скрывается при полной загрузке DOM элементов компонента. 
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Надеюсь на сотрудничество и обратную связь
+## С уважением, Анисимов Станислав!
