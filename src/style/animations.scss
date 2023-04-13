@@ -1,0 +1,31 @@
+.smaller {
+  animation-name: smaller;
+  animation-duration: 0.5s;
+}
+@keyframes smaller {
+  from {
+    padding-top: 8px;
+    font-size: 16px;
+
+    letter-spacing: 0.0015em;
+  }
+  to {
+    font-size: 11px;
+    letter-spacing: 0.004em;
+  }
+}
+.bigger {
+  animation-name: bigger;
+  animation-duration: 0.5s;
+}
+@keyframes bigger {
+  from {
+    font-size: 11px;
+    letter-spacing: 0.004em;
+  }
+  to {
+    padding-top: 8px;
+    font-size: 16px;
+    letter-spacing: 0.0015em;
+  }
+}
