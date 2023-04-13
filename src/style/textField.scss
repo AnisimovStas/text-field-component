@@ -93,12 +93,6 @@ textarea {
 .card-body--title {
   width: 282px;
   height: 12px;
-
-  width: 282px;
-  height: 12px;
-
-  /* Roboto/Caption 1 */
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -213,4 +207,19 @@ textarea {
   /* Semantic/sys/Service/ERROR */
 
   color: #d6675c;
+}
+.card-body--title__disabled {
+  padding-top: 8px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  /* or 138% */
+
+  letter-spacing: 0.0015em;
+
+  /* Semantic/Neutral/Text/TEXT-Medium */
+
+  color: #878f97;
 }
